@@ -23,10 +23,6 @@ package FirefoxBookmarkParserBase;
 
 use parent 'BookmarkParser';
 
-use Compress::LZ4;
-use DateTime;
-use JSON;
-
 
 sub DumpAll{
 	# Dumps the bookmark data to stdout.
